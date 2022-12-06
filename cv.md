@@ -6,6 +6,7 @@
 * __Discord:__ Besssta#9865
 * __E-mail:__ besssta888@mail.ru
 * __Mobile:__ +375445748242
+* __LinkedIn:__ Helena Shupenyova
 
 ## About myself:
 I want to fulfil my dream. I want to work in IT-sphere
