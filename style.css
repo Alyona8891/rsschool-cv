@@ -1,10 +1,69 @@
-html,body{
-background: #FAFAFA;
-height: 100%;
-width: 100%;
-font-size: 100%;
-line-height: 1;
-font-weight: 500;
-font-size: 14px;
-color: #252B42;
+a, a:visited {
+    text-decoration: none;
 }
+a:hover {
+    text-decoration: none;
+}
+a:focus, a:active {
+    outline: none;
+}
+ul li {
+    list-style: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', Lato;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #042F57;
+}
+* {
+    box-sizing: border-box;
+}
+.header,.main,.footer {
+    border: 1px solid red
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color:#042F57;
+    transition: .3s;
+    cursor: pointer;
+}
+.nav-item a {
+    transition: color 0.5s;
+    transition: text-decoration 0.5s;
+    position: relative;
+}
+.nav-item a:hover {
+    color: grey;
+}
+.nav-item a:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: grey;
+    content:"";
+    transition: width 0.5s ease-out;
+}
+.nav-item a:hover:after, .nav-item a:focus:after {
+    width: 100%;
+} 
