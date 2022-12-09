@@ -22,6 +22,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-size: 14px;
+    color: #042F57;
 }
 * {
     box-sizing: border-box;
@@ -35,6 +36,34 @@ body {
 }
 .nav-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color:#042F57;
+    transition: .3s;
+    cursor: pointer;
+}
+.nav-item a {
+    transition: color 0.5s;
+    transition: text-decoration 0.5s;
+    position: relative;
+}
+.nav-item a:hover {
+    color: grey;
+}
+.nav-item a:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: grey;
+    content:"";
+    transition: width 0.5s ease-out;
+}
+.nav-item a:hover:after, .nav-item a:focus:after {
+    width: 100%;
+} 
