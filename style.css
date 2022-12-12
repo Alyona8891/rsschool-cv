@@ -47,7 +47,7 @@ body {
         max-width: none;
     }
  }
-.main-block {
+.page {
     flex: 1 1 auto;
 }
 .header {
@@ -115,23 +115,30 @@ body {
     left: 67%;
     content: '';
 }
-.main-container {
+.body-main-block {
     display: flex;
     flex-wrap: wrap;
     position: relative;
     z-index: 1;
+    align-items: stretch;
+    justify-content: center;
 }
-.section {
-    width: 50%;
-    position: relative;
-    z-index: 1;
+.section:not(:first-child) {
     background-color: #fff;
     box-shadow: 0px 0px 20px rgba(1, 65, 125, 0.1);
 }
-.main-image {
+.section {
+    flex: 0 1 45%;
+    position: relative;
+    z-index: 1;
+    margin: 10px 20px;
+    text-align: center;
+}
+.section__main-image {
     border-radius: 50%;
     border: 3px solid grey;
     width: 200px;
+    
 
 }
  h1 {
