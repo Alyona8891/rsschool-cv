@@ -114,7 +114,7 @@ body {
     width: 200%;
     left: 67%;
     content: '';
-}
+   }
 .body-main-block {
     display: flex;
     flex-wrap: wrap;
@@ -133,6 +133,7 @@ body {
     z-index: 1;
     margin: 10px 20px;
     text-align: center;
+    max-width: 45%;
 }
 .section__main-image {
     border-radius: 50%;
@@ -149,7 +150,7 @@ body {
     line-height: 12px;
     text-align: center;
     letter-spacing: 0.09em;
-    margin: 0 0 50px 0;
+    margin: 0 0 40px 0;
 }
 .text-profile {
     font-weight: 600;
@@ -171,7 +172,7 @@ color: #656565;
     background-color: grey;
     content:"";
     width: 30%;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 h2 {
 font-weight: 700;
@@ -183,9 +184,58 @@ text-align: center;
 padding-top: 40px;
 }
 .section-title {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .list {
     padding: 0 100px 20px 100px;
     text-align: left;
+}
+.list li {
+    position: relative;
+    padding-left: 30px;
+}
+.list li::before  {
+    content: '';
+    background-color: #042F57;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 9px;
+    left: 0;
+    border-radius: 50%;
+}
+.footer {
+}
+.footer-container {
+}
+.footer__body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 20;
+}
+.footer__item {
+}
+.item {
+    
+}
+.item__year {
+}
+.footer__gh-profile {
+}
+.gh-profile {
+}
+.gh-profile__link {
+}
+.footer__rs-logo {
+}
+.rs-logo {
+}
+.rs-logo__link {
+}
+.rs-logo__image{
+    height: 70px;
+    width: 70px;
+
 }
