@@ -1,5 +1,6 @@
 a, a:visited {
     text-decoration: none;
+    color: #042F57;
 }
 a:hover {
     text-decoration: none;
@@ -109,9 +110,8 @@ body {
     background: #042F57;
     position: absolute;
     top: 10%;
-    width: 511px;
     height: 100%;
-    width: 200%;
+    width: 35%;
     left: 67%;
     content: '';
    }
